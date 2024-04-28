@@ -6,7 +6,7 @@ const Rightbar = () => {
       <div className='w-full'>
       <Piechart />
       </div>
-      <div className='w-full'>
+      <div className='w-full mt-5'>
       <Piechart />
       </div>
     </div>

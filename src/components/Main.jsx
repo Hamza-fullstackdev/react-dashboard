@@ -26,7 +26,7 @@ const Main = () => {
           </div>
         </div>
         <div className='flex flex-col gap-2 items-center'>
-          <div className='w-full flex flex-row justify-between items-center bg-purple-500 p-1 px-4 rounded-3xl'>
+          <div className='w-full flex flex-row justify-between items-center bg-purple-500 p-2 px-4 rounded-3xl'>
             <Avatar
               rounded
               className='w-10 h-10 object-contain'
@@ -37,7 +37,7 @@ const Main = () => {
             <h3 className='text-white'>Messages</h3>
             <Badge color={"pink"}>10%</Badge>
           </div>
-          <div className='w-full flex flex-row justify-between items-center bg-blue-400 p-1 px-4 rounded-3xl'>
+          <div className='w-full flex flex-row justify-between items-center bg-blue-400 p-2 px-4 rounded-3xl'>
             <Avatar
               rounded
               className='w-10 h-10 object-contain'
@@ -53,7 +53,7 @@ const Main = () => {
       <div className="w-full">
         <Linechart/>
       </div>
-      <div>
+      <div className="w-full">
         <Barchart/>
       </div>
     </div>

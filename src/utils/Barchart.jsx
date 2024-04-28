@@ -34,7 +34,7 @@ const BarChartData = {
       {
         label: "Total Earnings",
         data: [800, 500, 700,550, 320],
-        backgroundColor: "blue",
+        backgroundColor: "#76A9FA",
         borderColor: "cyan",
         borderWidth: 1,
         borderDash: [5, 5],
