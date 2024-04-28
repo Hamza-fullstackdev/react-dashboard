@@ -45,8 +45,8 @@ const LineChartData = {
 const Linechart = () => {
   const option = {};
   return (
-    <div className='flex flex-row w-full max-h-[400px] justify-center text-white p-4'>
-      <Line option={option} data={LineChartData} />
+    <div className='flex flex-row w-full justify-center text-white p-4'>
+      <Line option={option} data={LineChartData}/>
     </div>
   );
 };

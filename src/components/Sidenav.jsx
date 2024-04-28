@@ -13,7 +13,7 @@ import {
 const Sidenav = () => {
   return (
     <div className='w-[300px] min-h-screen hidden md:block'>
-      <Sidebar aria-label='Sidebar' className='relative'>
+      <Sidebar aria-label='Sidebar'>
         <Sidebar.Items>
           <Sidebar.ItemGroup className="flex flex-col gap-2">
             <div className='w-full flex justify-start border border-gray-200 p-2 rounded-xl gap-2 overflow-hidden mt-2'>
@@ -63,14 +63,6 @@ const Sidenav = () => {
             <Sidebar.Item icon={HiViewBoards}>Report</Sidebar.Item>
             <Sidebar.Item icon={HiArrowSmRight}>Sign In</Sidebar.Item>
             <Sidebar.Item icon={HiArrowCircleLeft}>Sign out</Sidebar.Item>
-            <div
-              className='w-[230px]'
-              style={{ position: "absolute", bottom: "2%" }}
-            >
-              <Button className='w-full bg-purple-500'>
-                <HiDownload className='mr-1 h-4 w-4' /> Download
-              </Button>
-            </div>
           </Sidebar.ItemGroup>
         </Sidebar.Items>
       </Sidebar>
