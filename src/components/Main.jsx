@@ -2,6 +2,7 @@ import { Avatar, Badge } from "flowbite-react";
 import React from "react";
 import Linechart from "../utils/Linechart";
 import Barchart from "../utils/Barchart";
+import DashTable from "../utils/DashTable";
 
 const Main = () => {
   return (
@@ -50,11 +51,17 @@ const Main = () => {
           </div>
         </div>
       </div>
-      <div className="w-full">
-        <Linechart/>
+      <div className='w-full mt-5'>
+        <Barchart />
       </div>
-      <div className="w-full">
-        <Barchart/>
+      <div className='w-full mt-5'>
+        <Linechart />
+      </div>
+      <div className="flex flex-col">
+        <div className="w-full">
+        <DashTable />
+        </div>
+        
       </div>
     </div>
   );
